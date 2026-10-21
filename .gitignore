@@ -1,0 +1,39 @@
+# 本机配置和认证信息
+.env
+.env.*
+!.env.example
+deploy/searxng/instance.env
+deploy/searxng/settings.yml
+*.pem
+*.key
+
+# 可重新安装的环境和临时文件
+.venv*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+*.pid
+
+# 模型、内容缓存、实验输出及下载文件
+/cache/
+/models/
+/outputs/
+/downloads/
+/data-local/
+*.partial
+*.zip
+*.safetensors
+*.bin
+*.sqlite3*
+
+# 保留来源清单和固定样本索引；新闻内容、图注、图片在本地恢复
+/data/*
+!/data/DGM4-author1000/
+!/data/MMFakeBench-author1000/
+/data/DGM4-author1000/*
+/data/MMFakeBench-author1000/*
+!/data/DGM4-author1000/manifest.json
+!/data/DGM4-author1000/sample-index.json
+!/data/MMFakeBench-author1000/manifest.json
+!/data/MMFakeBench-author1000/sample-index.json

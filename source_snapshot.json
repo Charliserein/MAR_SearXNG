@@ -1,0 +1,77 @@
+{
+  "source": "/home/c/czh/MAR_KDD",
+  "files": [
+    {
+      "path": "MAR_framework/run_local.py",
+      "sha256": "30ae241077f07e17514b720662c8ee7baad2ddf52b9d65ff13413c45fa51f39a"
+    },
+    {
+      "path": "MAR_framework/external_knowledge.py",
+      "sha256": "54112308db77e522a9444e62707a3f2d3e4ba2fa12e8e262d1179bd216b4a5d8"
+    },
+    {
+      "path": "MAR_framework/main.py",
+      "sha256": "b72fd492958e0404308c608ba49cfe29adee71a673ad5405d41c225e350484ce"
+    },
+    {
+      "path": "MAR_framework/web_search.py",
+      "sha256": "6eca559d644237250538d877430c0d2795d6cf8c01a261d9f23edf5073e83cb3"
+    },
+    {
+      "path": "MAR_framework/main_eval.py",
+      "sha256": "bb5697fbe853e27d2b0a04c0446a1d9139c17e30fc78fb50c6d40bcfbd9dd5f6"
+    },
+    {
+      "path": "MAR_framework/NewsAnalyzer.py",
+      "sha256": "d2d712d23ddfdf692855131f4105bf3302ecac787022fb6bfa01bd9eea149ab3"
+    },
+    {
+      "path": "MAR_framework/prompt_template/external_knowledge/system_prompts.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "MAR_framework/prompt_template/external_knowledge/user_prompts.py",
+      "sha256": "510691763f0f78318de0f182ada97dbba55f8a5bbc71ad38b7a8248eef3212c5"
+    },
+    {
+      "path": "MAR_framework/prompt_template/news_analyzer/system_prompts.py",
+      "sha256": "32ad72235965a250756bd3555187b257dbae2a595fcb5bb58fd6df2c13a93a61"
+    },
+    {
+      "path": "MAR_framework/prompt_template/news_analyzer/user_prompts.py",
+      "sha256": "ba214330fbde3923ef4900ac04187c5079f510e25632b650f41166ddf9e7b3a3"
+    },
+    {
+      "path": "reverse_image/download_inverse_annotations_dirs.py",
+      "sha256": "cb1efb575e2aa933a3836ff4e96bd6d87ada5eae778d890c55edc54b0c1840d7"
+    },
+    {
+      "path": "reverse_image/reverse_image_search.py",
+      "sha256": "96dbef7d729feb13480475c7dad3acd243851b774c517aa4ec586ff8792bd053"
+    },
+    {
+      "path": "reverse_image/evidence.py",
+      "sha256": "7f97022567ae9a295fd220df12e25fdc7129ab95384ba16d1bc2906ddd9a1eee"
+    },
+    {
+      "path": "reverse_image/utils.py",
+      "sha256": "9277bab264de3125955f1440a5cf67ae31e7e2ebc0cd4cf6f9a24ac9940b67b0"
+    },
+    {
+      "path": "reverse_image/serper_lens.py",
+      "sha256": "503be4770b67de657ab92febc7d436949d9f85f97d6ade6132aa4bee36743948"
+    },
+    {
+      "path": "scripts/evaluate_batch.py",
+      "sha256": "c8cd14d35218781045d29d9d1e602da71f69561c45c1809b11af557151a79538"
+    },
+    {
+      "path": "scripts/evidence_manifest.py",
+      "sha256": "0d216ea9deb784e8757d81b660fd3555fb6189d152759c8514b25e3d93d0d68a"
+    },
+    {
+      "path": "scripts/report_evaluation.py",
+      "sha256": "f5e9960644f300796dc11dbf9e40fb3f7f65e1ea9fc0be559710a6d2f53b1552"
+    }
+  ]
+}

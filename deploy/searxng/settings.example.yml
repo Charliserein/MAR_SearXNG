@@ -1,0 +1,42 @@
+use_default_settings:
+  engines:
+    keep_only:
+      - bing
+      - duckduckgo
+      - brave
+      - bing images
+      - duckduckgo images
+
+general:
+  instance_name: MAR Cached Search
+
+search:
+  safe_search: 0
+  autocomplete: ""
+  formats:
+    - html
+    - json
+
+server:
+  bind_address: 127.0.0.1
+  port: 18888
+  limiter: false
+  public_instance: false
+  image_proxy: false
+
+outgoing:
+  request_timeout: 12.0
+  max_request_timeout: 20.0
+  # 若上游引擎需要代理，在此配置 outgoing.proxies；默认直连。
+
+engines:
+  - name: bing
+    disabled: false
+  - name: duckduckgo
+    disabled: false
+  - name: brave
+    disabled: false
+  - name: bing images
+    disabled: false
+  - name: duckduckgo images
+    disabled: true

@@ -1,0 +1,20 @@
+{
+  "model_repository": "Qwen/Qwen3.8-27B-FP8",
+  "model_name": "Qwen3.8-27B",
+  "precision": "official_fp8",
+  "model_max_num_seqs": 8,
+  "evaluation_workers": 8,
+  "strict_web": true,
+  "model_base_url": "http://127.0.0.1:19888/v1",
+  "searxng_base_url": "http://127.0.0.1:18888",
+  "cache_database": "cache/evidence.sqlite3",
+  "datasets": [
+    "data/DGM4-author1000/samples.json",
+    "data/MMFakeBench-author1000/samples.json"
+  ],
+  "source_project": "/home/c/czh/MAR_KDD",
+  "source_images_shared": true,
+  "reverse_image_backends": ["imported_evidence", "searxng_images", "serper_lens"],
+  "searxng_images_capability": "text_query_with_visual_match_verification",
+  "native_reverse_image_backend": "serper_lens"
+}

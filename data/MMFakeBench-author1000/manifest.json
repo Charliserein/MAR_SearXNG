@@ -1,0 +1,28 @@
+{
+  "dataset": "Averdgr/MAR_KDD MMFakeBench processed test",
+  "source": "/home/c/czh/MAR_KDD/dataset/MMFakeBench-author1000/author_test_set.json",
+  "source_url": "https://github.com/Averdgr/MAR_KDD/blob/main/data_processing/MMFakeBench/test_set.json",
+  "source_sha256": "fefcea882fb1ddd3e97282880a191c83037fc32aa7475dfa9d92926ffd353595",
+  "upstream_repository": "liuxuannan/MMFakeBench",
+  "revision": "b63091556dc85069533f96d914277b7402dcd5a3",
+  "split": "author_test",
+  "official_split": "val",
+  "count": 1000,
+  "class_counts": {
+    "original": 300,
+    "textual_veracity_distortion": 300,
+    "visual_veracity_distortion": 100,
+    "mismatch": 300
+  },
+  "path_recovery": "exact_author_paths_in_official_val_zip",
+  "metadata_match": "all_1000_ordered_rows_match_after_author_preprocessing",
+  "source_metadata_sha256": "de0ca8c4a53493ccc48e0f4ff68dc23fa32c9e3886c2acfdaf17cb3a22d6994c",
+  "archive_sha256": "e93a07c6a941b7f1695e1d06cd2f6daa9fa73ff9743f1e5054d12325803f061b",
+  "archive_bytes": 646404567,
+  "images_verified": 1000,
+  "unresolved": 0,
+  "reverse_image_annotations": 146,
+  "id_source": "generated_from_author_test_order",
+  "samples_sha256": "5825f221bda4f5b72f69bbe9ed000ff479e99937707261fdf6f5c99d7645ea5d",
+  "verified_at_utc": "2026-10-20T11:34:40Z"
+}

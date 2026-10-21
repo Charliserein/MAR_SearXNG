@@ -1,0 +1,80 @@
+{
+  "source": "/home/c/czh/MAR_KDD/data_processing/DGM4/test_final.json",
+  "source_sha256": "5644105fb9334bd072e4a7a7c5a8bd9cebff1c62c1865a64495b3f939b6a5b01",
+  "dataset": "Averdgr/MAR_KDD DGM4 processed test",
+  "split": "author_test",
+  "revision": "9efd3f1ca14cb1dac1692cdce0beea6844b968a6",
+  "seed": 42,
+  "count": 1000,
+  "mapping": {
+    "orig": "original",
+    "text_attribute": "textual_veracity_distortion",
+    "face_swap": "visual_veracity_distortion",
+    "face_attribute": "visual_veracity_distortion",
+    "text_swap": "mismatch"
+  },
+  "path_recovery": "complete_ordered_seed42_replay",
+  "override_sha256": null,
+  "metadata_sha256": {
+    "train": "dafd4fe101d3de63b433759fae79b14b465294f7be73f26c9f3bb13b8de87704",
+    "val": "d4377ecc19cb6528e36c77401482cbfffaa57977faee2c6124e3b1bdda045520",
+    "test": "b58b29c4cf0f40cdf791189181ad57821f9359e358e93683cc702db3a41c0a18"
+  },
+  "selected": 1000,
+  "unresolved": 0,
+  "class_counts": {
+    "original": 300,
+    "textual_veracity_distortion": 300,
+    "mismatch": 300,
+    "visual_veracity_distortion": 100
+  },
+  "subclass_counts": {
+    "orig": 300,
+    "text_attribute": 300,
+    "text_swap": 300,
+    "face_swap": 59,
+    "face_attribute": 41
+  },
+  "unique_news_ids": 997,
+  "split_counts": {
+    "train": 725,
+    "val": 82,
+    "test": 193
+  },
+  "reverse_image_annotations": 212,
+  "samples_sha256": "4a5dccba64eab91a899d4c5ff0e241469e8ac347d15860535bdaae35ab0dc9ea",
+  "transfers": [
+    {
+      "archive": "origin/bbc.zip",
+      "transferred_bytes": 17044818
+    },
+    {
+      "archive": "origin/usa_today.zip",
+      "transferred_bytes": 6209288
+    },
+    {
+      "archive": "origin/guardian.zip",
+      "transferred_bytes": 25566887
+    },
+    {
+      "archive": "origin/washington_post.zip",
+      "transferred_bytes": 4929311
+    },
+    {
+      "archive": "manipulation/infoswap.zip",
+      "transferred_bytes": 6689305
+    },
+    {
+      "archive": "manipulation/HFGI.zip",
+      "transferred_bytes": 3638178
+    },
+    {
+      "archive": "manipulation/simswap.zip",
+      "transferred_bytes": 3741173
+    },
+    {
+      "archive": "manipulation/StyleCLIP.zip",
+      "transferred_bytes": 3920407
+    }
+  ]
+}
